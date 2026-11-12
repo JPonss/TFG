@@ -1,0 +1,9 @@
+data:
+  raw_options_path: "data/raw/spy_options.csv"
+  processed_output_path: "data/processed/spx_options_master.parquet"
+  start_date: "2019-01-01"
+  end_date: "2025-12-31"
+  index_ticker: "^GSPC"     # S&P 500 puro
+  volatility_ticker: "^VIX" # VIX oficial de CBOE
+  delta_atm_range: [0.40, 0.60]
+  delta_otm_put_range: [-0.30, -0.10]
