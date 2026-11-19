@@ -1,6 +1,7 @@
 import operator
 import random
 import functools
+from deap import base, creator, tools, gp
 # 1. Función de división protegida para evitar errores matemáticos
 DANGER_EPSILON = 1e-6
 def protected_div(left, right):
@@ -33,5 +34,5 @@ def setup_gp_pset():
     # Constantes efímeras (números aleatorios generados por el algoritmo)
   # Constantes efímeras (números aleatorios generados por el algoritmo)
     # Constantes efímeras (números aleatorios generados por el algoritmo)
-    set.addEphemeralConstant("rand100", functools.partial(random.uniform, -2.0, 2.0))
+    pset.addEphemeralConstant("rand100", functools.partial(random.uniform, -2.0, 2.0))
     return pset
