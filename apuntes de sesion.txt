@@ -1,0 +1,6 @@
+lista de tareas siguiente sesion:
+
+- division de conjunto de entrenamiento -> in sample y de validacion real para evitar el overfitting -> out of sample
+
+- Estudiar la viabilidad de los parametros utilizados en el motor evolutivo (los del parquet), 
+  y la manera de generar arboles, se puede estudiar la eficacia de usar distintas profuncidades de árbol
